@@ -9,6 +9,7 @@
 nav ul a,
 nav .brand-logo {
   color: white;
+  padding-left: 20px;
 }
 
 p {
@@ -97,4 +98,8 @@ footer.page-footer {
   display: block;
   text-align: center;
   color: #4db6ac;
+}
+
+.header {
+  font-size: 30px;
 }
