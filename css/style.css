@@ -30,32 +30,6 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-  .col-lg-4 {
-    display: inline-block;
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-  .col-lg-4 {
-    display: inline-block;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -104,7 +78,7 @@ footer.page-footer {
 
 .page-name {
   padding-top: 70px;
-  font-size: 100px;
+  font-size: 60px;
   display: block;
   text-align: center;
   color: #4db6ac;
@@ -120,4 +94,39 @@ footer.page-footer {
 
 #hamburger {
   color: white;
+}
+
+
+
+/* Media Settings */
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .col-lg-4 {
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .page-name {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .col-lg-4 {
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .page-name {
+    font-size: 40px;
+  }
 }
