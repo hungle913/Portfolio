@@ -44,6 +44,9 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .col-lg-4 {
+    margin-left: 25%;
+  }
 }
 
 .icon-block {
