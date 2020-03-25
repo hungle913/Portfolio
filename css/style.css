@@ -104,6 +104,10 @@ footer.page-footer {
   color: #288BFF;
 }
 
+#phone-number {
+  width: 150px;
+}
+
 label,
 input[type=text],
 input[type=email],
