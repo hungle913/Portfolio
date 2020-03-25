@@ -94,11 +94,13 @@ footer.page-footer {
 }
 
 #email {
-  color: #288BFF;
+  color: #4db6ac;
+  font-weight: bold;
 }
 
 #phone{
-  color: #288BFF;
+  color: #4db6ac;
+  font-weight: bold;
 }
 
 #phone-number {
