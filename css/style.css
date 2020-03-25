@@ -30,9 +30,6 @@ p {
     width: 100%;
   }
 
-.icon-block {
-  padding: 0 15px;
-}
 .icon-block .material-icons {
   font-size: inherit;
 }
