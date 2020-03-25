@@ -95,14 +95,14 @@ footer.page-footer {
 #hamburger {
   color: white;
 }
-/* 
-#contact-form ul {
-  margin-bottom: 20px;
+
+#email {
+  color: #288BFF;
 }
 
-#contact-form li {
-  margin-bottom: 10px;
-} */
+#phone{
+  color: #288BFF;
+}
 
 label,
 input[type=text],
