@@ -5,7 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
-
+nav {
+  position: fixed;
+  z-index: 10;
+}
 nav ul a,
 nav .brand-logo {
   color: white;
