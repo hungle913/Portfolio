@@ -47,9 +47,7 @@ footer.page-footer {
 
 .work {
   position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  margin-top: 20px;
   overflow: auto;
 }
 
@@ -148,6 +146,14 @@ input[type=submit] {
  font-weight: bold;
 }
 
+#website {
+  text-align: center;
+}
+
+#repository {
+  text-align: center;
+}
+
 
 /* Media Settings */
 @media only screen and (max-width : 992px) {
@@ -174,10 +180,16 @@ input[type=submit] {
   }
   .col-lg-4 {
     display: inline-block;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 13%;
   }
   .page-name {
     font-size: 40px;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
   }
 }
