@@ -154,6 +154,14 @@ input[type=submit] {
   text-align: center;
 }
 
+h5#resume {
+  font-size: 45px;
+}
+
+h5#linkedin {
+  font-size: 45px;
+}
+
 
 /* Media Settings */
 @media only screen and (max-width : 992px) {
